@@ -1,0 +1,21 @@
+// component
+.box {
+  display: flex;
+  .items {
+    box-sizing: border-box;
+    padding: 50px;
+    flex: 100%;
+    font-size: $fontSizeMid;
+    .title {
+      font-size: $titleFontSizeMid;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  &.items_2 {
+    .items {
+      flex: 50%;
+    }
+  }
+}
